@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color: white;
+}
+body {
+    color: rgb(0, 0, 0);
+}
+
+image {
+  width: 50%;
+  height: 50%;
+}
+
+.image img {
+  width: 200px;
+  height: auto;
+  margin:  auto;
+  display: block;
+  border-radius: 50%; /* add a rounded corner effect */
+}
+
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(9, 163, 96);
+    padding: 20;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 500px rgb(64, 3, 102);
+}
+.header i {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 30px;
+    
+}
+.header a {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-right: 1000px;
+    
+}
+.header img {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+.logo {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.navbar i {
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.navbar i:hover {
+    color: white;
+}
+
+.middle {
+    display: flex;
+    height: calc(100vh - 100px);
+    margin-top: 80px;
+    width: 400px;
+    position: fixed;
+    border-top: 10px rgb(3, 79, 34);
+}
+
+
+
+.sidebar {
+    width: 300px; 
+    background-color: rgb(3, 79, 34);
+    padding: 60px;
+    border-right: 1px solid #ccc;
+    height: 100%;
+}
+
+.sidebar i {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 50px;
+}
+
+
+
+.sidebar i:hover {
+    color: #0ef;
+}
+
+/* add some basic styling to make it look decent */
+.middle-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .class-box {
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .class-header {
+    background-color: rgb(90, 90, 90);
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .class-header h2 {
+    margin: 0;
+  }
+  
+  .middle {
+    display: flex;
+    height: calc(100vh - 100px);
+    margin-top: 80px;
+    width: 100%; /* Changed to 100% to take full width */
+    position: relative; /* Added relative positioning */
+}
+
+.circles-container {
+    position: absolute; /* Changed to absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    width: 400px; /* Adjust based on your needs */
+    height: 400px; /* Adjust based on your needs */
+}
+
+
+.circles-container {
+    position: relative;
+    width: 400px; 
+    height: 400px; 
+}
+
+.central-circle, .small-circle {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central-circle {
+    width: 100%;
+    height: 100%;
+    background-color: #007bff; 
+}
+
+.central-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.small-circle {
+    width: 50px; 
+    height: 50px; 
+    background-color: #dc3545; 
+}
+
+.small-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.small-circle-1 {
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -25px; 
+}
+
+.small-circle-2 {
+    top: 50%;
+    left: 50%;
+    margin-top: -175px; 
+    margin-left: 75px; 
+}
+
+.small-circle-3 {
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; 
+    margin-left: 150px; 
+}
+
+.small-circle-4 {
+    top: 50%;
+    left: 50%;
+    margin-top: 0px; 
+    margin-left: 200px; 
+}
+
+.small-circle-5 {
+    top: 50%;
+    left: 50%;
+    margin-top: 100px; 
+    margin-left: 150px; 
+}
+
+.small-circle-6 {
+    top: 50%;
+    left: 50%;
+    margin-top: 175px; 
+    margin-left: 75px; 
+}
+
+.middle {
+    display: flex;
+    height: calc(100vh - 100px);
+    margin-top: 80px;
+    width: 100%; /* Changed to 100% to take full width */
+    position: relative; /* Added relative positioning */
+}
+
+.circles-container {
+    position: absolute; /* Changed to absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    width: 400px; /* Adjust based on your needs */
+    height: 400px; /* Adjust based on your needs */
+}
+
+circles-container {
+    position: relative;
+    width: 400px; /* Adjust based on your needs */
+    height: 400px; /* Adjust based on your needs */
+}
+
+.central-circle, .small-circle {
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.central-circle {
+    width: 100%;
+    height: 100%;
+    background-color: #007bff; /* Optional background color */
+}
+
+.central-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.small-circle {
+    width: 50px; /* Adjust size based on your needs */
+    height: 50px; /* Adjust size based on your needs */
+    background-color: #dc3545; /* Optional background color */
+}
+
+.small-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.small-circle-1 {
+    top: 50%;
+    left: 50%;
+    margin-top: -200px; /* Adjust based on radius needed */
+    margin-left: -25px; /* Half of the small circle's width */
+}
+
+.small-circle-2 {
+    top: 50%;
+    left: 50%;
+    margin-top: -175px; /* Adjust based on radius and angle needed */
+    margin-left: 75px; /* Adjust based on radius and angle needed */
+}
+
+.small-circle-3 {
+    top: 50%;
+    left: 50%;
+    margin-top: -100px; /* Adjust based on radius needed */
+    margin-left: 150px; /* Adjust based on radius needed */
+}
+
+.small-circle-4 {
+    top: 50%;
+    left: 50%;
+    margin-top: 0px; /* Adjust based on radius needed */
+    margin-left: 200px; /* Adjust based on radius needed */
+}
+
+.small-circle-5 {
+    top: 50%;
+    left: 50%;
+    margin-top: 100px; /* Adjust based on radius needed */
+    margin-left: 150px; /* Adjust based on radius needed */
+}
+
+.small-circle-6 {
+    top: 50%;
+    left: 50%;
+    margin-top: 175px; /* Adjust based on radius and angle needed */
+    margin-left: 75px; /* Adjust based on radius and angle needed */
+}

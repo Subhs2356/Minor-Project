@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <style>
+        body {
+    background-image: url(quino-al-mBQIfKlvowM-unsplash.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.5;
+    z-index:1;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+    margin: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.login-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+}
+body {
+    background-image: url(quino-al-mBQIfKlvowM-unsplash.jpg);
+    background-size: cover;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 95%;
+    height: 20px;
+    padding: 10px ;
+    border: 1px solid #ccc;
+    padding-right: 10px;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    padding-left: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#error-message {
+    color: #f00;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+#register-button {
+    width: 100%;
+    height: 40px;
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#register-button:hover {
+    background-color: #23527c;
+}
+
+#forgot-password {
+    font-size: 14px;
+    color: #0f314f;
+    text-decoration: none;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
+
+#error-message {
+    color: #f00;
+    font-size: 12px;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+    <div class="image">
+        <img src="medical_care_logo_template_social_media_-removebg-preview.png">
+    </div>
+    <div class="login-container">
+        <h2>Register</h2>
+        <form id="login-form" name="f" method="post" action="Management">
+            <label for="username">Full Name</label>
+            <input type="text" id="username" name="name"><br><br>
+            <label for="username">Mobile Number</label>
+            <input type="text" id="username" name="tel"><br><br>
+            <label for="username">  Gender</label>
+            <input type="text" id="username" name="gen"><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="pas"><br><br>
+            <label for="password">Confirm Password</label>
+            <input type="password" id="password" name="pas1"><br><br>
+             <button id="register-button">Register</button>
+        </form>
+       
+        <p id="error-message"></p>
+    </div>
+   
+
+   
+</body>
+</html>

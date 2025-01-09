@@ -1,0 +1,345 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body {
+    color: #0d0d0d8a;
+    background-color: white;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    backdrop-filter: blur(60px);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    height: 130px;
+    background-color: white;
+    padding: 0 ;
+    font-size: medium;
+    display: flex;
+}
+
+
+.logo {
+    position: relative;
+    text-decoration: none;
+    padding-left: 30px;
+    background-size: cover; 
+    line-height: 45px;
+    margin-left: 40px;
+    max-width: 120px; 
+    margin-top: 20px;
+    
+}
+.logo img {
+    width: 200px;
+  height: auto;
+  margin:  auto;
+  display: block;
+  border-radius: 50%;
+}
+.navbar {
+    margin-right: 50px;
+}
+.navbar a {
+    display: inline-block;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.552);
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 15px;
+    transition: .3s;
+    margin-right:10px;
+    padding: 10px;
+    z-index: 99;
+    position: relative;
+
+}
+.navbar a:hover {
+    color: black;
+}
+
+.bx.bxs-cart {
+    height: 24px;
+    width: 24px;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.bx.bxs-cart:hover {
+    color: black;
+
+}
+.header .navbar .bx {
+    font-size: 40px;
+    color: #070707; 
+    cursor: pointer;
+    padding: 30px;
+    margin-right: 40px;
+    
+}
+
+.photo1 {
+    position: relative; /* add relative positioning to the section */
+  }
+  
+  .textphoto {
+    position: relative;
+     /* add relative positioning to the div */
+  }
+  
+  .textphoto img {
+    width: 100%; /* make the image full width */
+    height: 100vh; /* set the image height to 100vh */
+    background-size: cover;/* make the image cover the entire div */
+  }
+  
+  .textphoto h1 {
+    position: absolute; /* add absolute positioning to the h1 */
+    top: 50%; /* center the h1 vertically */
+    left: 50%; /* center the h1 horizontally */
+    transform: translate(-50%, -50%); /* adjust the position to center */
+    color: #fff; /* set the text color to white */
+    font-size: 58px; /* adjust the font size as needed */ /* center the text */
+    z-index: 1;
+    margin-left: -500px;
+    line-height: 1.7;
+    font-family: "Jost", sans-serif; /* make sure the h1 is on top of the image */
+  }
+  .textphoto h3 {
+    position: absolute; /* add absolute positioning to the h1 */
+    top: 80%; /* center the h1 vertically */
+    left: 700px; /* center the h1 horizontally */
+    transform: translate(-50%, -50%); /* adjust the position to center */
+    color: #fff; /* set the text color to white */ /* adjust the font size as needed */ /* center the text */
+    z-index: 1;
+    margin-left: -500px;
+    font-family: "Jost", sans-serif; /* make sure the h1 is on top of the image */
+}
+
+.text1 {
+    width: 100%;
+    height:400px;
+    background-color: white;
+}
+
+.My-pics {
+    margin: 60px 10px  ;
+    margin-left: 40px;
+    width: 95%;
+    height: 450px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    backdrop-filter: blur(20px);
+    margin-top: 40px;
+}
+.My-pics img {
+    height: 80%;
+    width: 10%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px white;
+
+}
+.My-pics img:hover {
+    width: 25%;
+    background-size: cover;
+    height: 80%;
+    box-shadow: 0 0 30px white;
+}
+.work {
+    padding: 150px;
+    padding-left: 50px;
+}
+.work2 {
+    font-size: 50px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #070707;
+}
+.work3 {
+    padding: 10px;
+    padding-right: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icon1 {
+    margin-left: 1050px;
+    font-size: 90px;
+}
+
+
+
+.about-text {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding: 90px;
+    
+}
+.archi1 {
+    width: 50%;
+    padding-left: 100px;
+
+}
+.archi1 h1 {
+    font-size: 60px;
+    color: #070707;
+}
+.arrrr {
+    width: 50%;
+    padding-left: 100px;
+    height: 100px;
+}
+.arrrr h3 {
+    font-size: 30px;
+}
+
+
+
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100px;
+     
+    background-color: white;
+    margin: 80px;
+}
+.ban1 {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    
+  }
+  
+  .ban2 {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    
+  }
+  
+  .ban3 {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    
+  }
+  
+  .ban4 {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    
+  }
+  
+  .ban5 {
+    width: 20%;
+    height: 250px;
+    background-size: cover;
+    
+  }
+  .about-team {
+    background-image: url(porsonal-bg-HP3.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1000px;
+    background-repeat: repeat;
+  }
+  .text-team {
+    padding: 100px;
+    padding-left: 50px;
+  }
+  .text-team h1 {
+    font-size: 10vh;
+    color: black;
+    padding: 10px;
+  }
+  .photo-team {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-repeat: repeat;
+    margin-top: 50px;
+  }
+  
+  .hina, .priya, .mohini {
+    width: 33%;
+    background-size: cover;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .hina img, .priya img, .mohini img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+  }
+  .last {
+    width: 100%;
+    height: 500px;
+    background-color: #070707;
+    margin-top: 100px;
+    background-image: url(footer-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    width: 25%;
+    margin: 20px;
+  }
+  
+  .footer-column h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer-column a:hover {
+    color: #ccc;
+  }
+  
+  .footer-column i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
